@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-website/static/css/main.3a37341f.chunk.css",
+    "main.js": "/react-website/static/js/main.901f8a8b.chunk.js",
+    "main.js.map": "/react-website/static/js/main.901f8a8b.chunk.js.map",
+    "runtime-main.js": "/react-website/static/js/runtime-main.7e13fed7.js",
+    "runtime-main.js.map": "/react-website/static/js/runtime-main.7e13fed7.js.map",
+    "static/js/2.bd07cb04.chunk.js": "/react-website/static/js/2.bd07cb04.chunk.js",
+    "static/js/2.bd07cb04.chunk.js.map": "/react-website/static/js/2.bd07cb04.chunk.js.map",
+    "index.html": "/react-website/index.html",
+    "static/css/main.3a37341f.chunk.css.map": "/react-website/static/css/main.3a37341f.chunk.css.map",
+    "static/js/2.bd07cb04.chunk.js.LICENSE.txt": "/react-website/static/js/2.bd07cb04.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/react-website/static/media/footer.b6e7a24e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e13fed7.js",
+    "static/js/2.bd07cb04.chunk.js",
+    "static/css/main.3a37341f.chunk.css",
+    "static/js/main.901f8a8b.chunk.js"
+  ]
+}
