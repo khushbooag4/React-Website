@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.7em;
+}
+.main-container{
+    display: block;
+    max-height: 1200px;
+    min-height: 600px;
+    height: 100%;
+    padding-top: 100px;
+    background: #fff;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+    background: linear-gradient(to right, #243B55, #141E30);
+ */ } 
+.container{
+    display: flex;
+    margin: 30px;
+}
+.container .text{
+    margin: 50px;
+}
+.container h1{
+    color:#0f101f;
+    font-size: 3.1rem;
+    margin-bottom: 12px;
+}
+.container p{
+    color: black;
+    font-size: 1.2rem;
+}
+.container .btn{
+    color: #fff;
+    margin-left: 0;
+}
+
+/*stats*/
+.stats{
+  position: relative;
+  background-color: #c3e2db;
+  padding: 12px;
+  text-align: center;
+  max-height: 900px;
+  min-height: 300px;
+}
+.stats-container img{
+    background-color: black;
+    border-radius:50% ;
+    padding: 5px;
+}
+.stats-container{
+    display: flex;
+}
+.stats-data{
+    margin: 50px;
+    background-color: none;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    border:3px solid #60aa95;
+    padding: 30px;
+}
+.stats-data:hover{
+    border:none;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.stats h1{
+    color:#176956;
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+}
+/* Companies */
+.companies{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom:50px;
+}
+.companies h1{
+    color:#222;
+    font-size: 2rem;
+    margin-bottom: 26px;
+    line-height: 48px;
+}
+.companies .container{
+   display: table;
+}
+.companies img{
+    width: 200px;
+    margin: 7px;
+}
+.container{
+    padding: 50px;
+}
+.container .text1{
+    padding: 50px;
+}
+.container .text1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    margin-bottom: 12px;
+}
+.container .text1 p{
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    margin-top:12px;
+}
+
+@media (max-width : 1000px) {
+    .main-container{
+        padding-top: 70px;
+    }
+    .container h1{
+        font-size: 2rem;
+    }
+    .container p{
+        margin-bottom: 10px;
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    .container img{
+        width: 500px;
+    }
+    .stats-container{
+        display: block;
+    }
+    .stats h1{
+       font-size: 2.2rem;
+       justify-items: center;
+    }
+    .container .text1 h1{
+        font-size: 2.3rem;
+    }
+    .container .text1 p{
+        font-size: 1.3em;
+        line-height: 2.6rem;
+        margin-top:1px;
+    }
+    .details img{
+       width: 400px;
+       height: 400px;
+       justify-self: center;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.carousel{
+    font-family: 'Monserrat',sans-serif;
+   align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid #f0f0f0;
+  }
+.carousel{
+    text-align: center;
+    padding: 10px;
+}
+.carousel img{
+    width: 350px;
+    height: 500px;
+    /* margin: 10px; */
+    margin-bottom: 0;
+    object-fit: contain;
+}
+.carousel h1{
+    font-size: 2.4rem;
+    color: #35584e;
+    font-family: 'Monserrat', sans-serif;
+    margin-top: 50px;
+    margin-left: 64px;
+    margin-bottom: 7px;
+}
+.carousel img{
+    display: block;
+    margin: 3px;
+}
+.carousel img:hover{
+   opacity: 0.6;
+}
+
+@media (max-width: 1000px) {
+
+    .carousel img{
+        width: 200px;
+        height: 500px;
+    }
+    .carousel-container{
+        margin-top: 20px;
+    }
+}
